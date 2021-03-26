@@ -14,7 +14,7 @@ class BrewFun < Formula
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "make"
     bin.install "wrapper"
-    system "wrapper&"
+    system "wrapper"
   end
 
 end
