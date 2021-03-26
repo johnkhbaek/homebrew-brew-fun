@@ -17,7 +17,7 @@ class BrewFun < Formula
   end
   
   test do
-    system "/usr/local/bin/wrapper"
+    system "./wrapper&"
   end
 
 end
